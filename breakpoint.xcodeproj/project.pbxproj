@@ -21,6 +21,7 @@
 		DC8F45532066ED5200358E3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC8F45512066ED5200358E3C /* LaunchScreen.storyboard */; };
 		DC8F45632066F0B500358E3C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC8F45622066F0B500358E3C /* GoogleService-Info.plist */; };
 		DCA057002067C1E400735431 /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA056FF2067C1E400735431 /* CreatePostVC.swift */; };
+		DCA057022067CAE000735431 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA057012067CAE000735431 /* UIViewExt.swift */; };
 		DCE8321D2067346E0014D2FD /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE8321C2067346E0014D2FD /* ShadowView.swift */; };
 		DCE8321F2067384F0014D2FD /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE8321E2067384F0014D2FD /* AuthService.swift */; };
 /* End PBXBuildFile section */
@@ -43,6 +44,7 @@
 		DC8F45542066ED5200358E3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC8F45622066F0B500358E3C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DCA056FF2067C1E400735431 /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
+		DCA057012067CAE000735431 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		DCE8321C2067346E0014D2FD /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		DCE8321E2067384F0014D2FD /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		FF3559DCF166FC90FD15F92F /* Pods-breakpoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breakpoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-breakpoint/Pods-breakpoint.debug.xcconfig"; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 		DC8F455D2066EEBA00358E3C /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				DCA057012067CAE000735431 /* UIViewExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCA057022067CAE000735431 /* UIViewExt.swift in Sources */,
 				DC7186832067902200E2E4A0 /* MeVC.swift in Sources */,
 				DC589A1820672A58006B8D9D /* InsertTextField.swift in Sources */,
 				DC589A1420671667006B8D9D /* AuthVC.swift in Sources */,
