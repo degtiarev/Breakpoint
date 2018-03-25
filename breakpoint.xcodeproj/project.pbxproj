@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		6AA147A22846C8EA38D1E06A /* Pods_breakpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA1F44D59FF457A45361D613 /* Pods_breakpoint.framework */; };
 		DC589A102066F384006B8D9D /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC589A0F2066F384006B8D9D /* DataService.swift */; };
+		DC589A1420671667006B8D9D /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC589A1320671667006B8D9D /* AuthVC.swift */; };
+		DC589A16206716C5006B8D9D /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC589A15206716C5006B8D9D /* LoginVC.swift */; };
+		DC589A1820672A58006B8D9D /* InsertTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC589A1720672A58006B8D9D /* InsertTextField.swift */; };
 		DC8F45472066ED5100358E3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8F45462066ED5100358E3C /* AppDelegate.swift */; };
 		DC8F45492066ED5100358E3C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8F45482066ED5100358E3C /* FirstViewController.swift */; };
 		DC8F454B2066ED5100358E3C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8F454A2066ED5100358E3C /* SecondViewController.swift */; };
@@ -16,12 +19,16 @@
 		DC8F45502066ED5200358E3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC8F454F2066ED5200358E3C /* Assets.xcassets */; };
 		DC8F45532066ED5200358E3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC8F45512066ED5200358E3C /* LaunchScreen.storyboard */; };
 		DC8F45632066F0B500358E3C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC8F45622066F0B500358E3C /* GoogleService-Info.plist */; };
+		DCE8321D2067346E0014D2FD /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE8321C2067346E0014D2FD /* ShadowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5B78BB5D7C6FD5FBAB6305F6 /* Pods-breakpoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breakpoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-breakpoint/Pods-breakpoint.release.xcconfig"; sourceTree = "<group>"; };
 		DA1F44D59FF457A45361D613 /* Pods_breakpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_breakpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC589A0F2066F384006B8D9D /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		DC589A1320671667006B8D9D /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
+		DC589A15206716C5006B8D9D /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		DC589A1720672A58006B8D9D /* InsertTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertTextField.swift; sourceTree = "<group>"; };
 		DC8F45432066ED5100358E3C /* breakpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = breakpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC8F45462066ED5100358E3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC8F45482066ED5100358E3C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -31,6 +38,7 @@
 		DC8F45522066ED5200358E3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC8F45542066ED5200358E3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC8F45622066F0B500358E3C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DCE8321C2067346E0014D2FD /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		FF3559DCF166FC90FD15F92F /* Pods-breakpoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breakpoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-breakpoint/Pods-breakpoint.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,9 +97,11 @@
 		DC8F455A2066EE7500358E3C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				DC589A1320671667006B8D9D /* AuthVC.swift */,
 				DC8F45482066ED5100358E3C /* FirstViewController.swift */,
 				DC8F454A2066ED5100358E3C /* SecondViewController.swift */,
 				DC8F45462066ED5100358E3C /* AppDelegate.swift */,
+				DC589A15206716C5006B8D9D /* LoginVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -101,6 +111,8 @@
 			children = (
 				DC8F454C2066ED5200358E3C /* Main.storyboard */,
 				DC8F45512066ED5200358E3C /* LaunchScreen.storyboard */,
+				DC589A1720672A58006B8D9D /* InsertTextField.swift */,
+				DCE8321C2067346E0014D2FD /* ShadowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -281,7 +293,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC589A1820672A58006B8D9D /* InsertTextField.swift in Sources */,
+				DC589A1420671667006B8D9D /* AuthVC.swift in Sources */,
 				DC8F454B2066ED5100358E3C /* SecondViewController.swift in Sources */,
+				DC589A16206716C5006B8D9D /* LoginVC.swift in Sources */,
+				DCE8321D2067346E0014D2FD /* ShadowView.swift in Sources */,
 				DC8F45472066ED5100358E3C /* AppDelegate.swift in Sources */,
 				DC8F45492066ED5100358E3C /* FirstViewController.swift in Sources */,
 				DC589A102066F384006B8D9D /* DataService.swift in Sources */,
