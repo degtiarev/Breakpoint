@@ -13,8 +13,8 @@
 		DC589A16206716C5006B8D9D /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC589A15206716C5006B8D9D /* LoginVC.swift */; };
 		DC589A1820672A58006B8D9D /* InsertTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC589A1720672A58006B8D9D /* InsertTextField.swift */; };
 		DC8F45472066ED5100358E3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8F45462066ED5100358E3C /* AppDelegate.swift */; };
-		DC8F45492066ED5100358E3C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8F45482066ED5100358E3C /* FirstViewController.swift */; };
-		DC8F454B2066ED5100358E3C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8F454A2066ED5100358E3C /* SecondViewController.swift */; };
+		DC8F45492066ED5100358E3C /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8F45482066ED5100358E3C /* FeedVC.swift */; };
+		DC8F454B2066ED5100358E3C /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8F454A2066ED5100358E3C /* GroupsVC.swift */; };
 		DC8F454E2066ED5200358E3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC8F454C2066ED5200358E3C /* Main.storyboard */; };
 		DC8F45502066ED5200358E3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC8F454F2066ED5200358E3C /* Assets.xcassets */; };
 		DC8F45532066ED5200358E3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC8F45512066ED5200358E3C /* LaunchScreen.storyboard */; };
@@ -32,8 +32,8 @@
 		DC589A1720672A58006B8D9D /* InsertTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertTextField.swift; sourceTree = "<group>"; };
 		DC8F45432066ED5100358E3C /* breakpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = breakpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC8F45462066ED5100358E3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DC8F45482066ED5100358E3C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		DC8F454A2066ED5100358E3C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		DC8F45482066ED5100358E3C /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		DC8F454A2066ED5100358E3C /* GroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsVC.swift; sourceTree = "<group>"; };
 		DC8F454D2066ED5200358E3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DC8F454F2066ED5200358E3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC8F45522066ED5200358E3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,8 +101,8 @@
 			children = (
 				DC589A1320671667006B8D9D /* AuthVC.swift */,
 				DC589A15206716C5006B8D9D /* LoginVC.swift */,
-				DC8F45482066ED5100358E3C /* FirstViewController.swift */,
-				DC8F454A2066ED5100358E3C /* SecondViewController.swift */,
+				DC8F45482066ED5100358E3C /* FeedVC.swift */,
+				DC8F454A2066ED5100358E3C /* GroupsVC.swift */,
 				DC8F45462066ED5100358E3C /* AppDelegate.swift */,
 			);
 			path = Controller;
@@ -298,11 +298,11 @@
 			files = (
 				DC589A1820672A58006B8D9D /* InsertTextField.swift in Sources */,
 				DC589A1420671667006B8D9D /* AuthVC.swift in Sources */,
-				DC8F454B2066ED5100358E3C /* SecondViewController.swift in Sources */,
+				DC8F454B2066ED5100358E3C /* GroupsVC.swift in Sources */,
 				DC589A16206716C5006B8D9D /* LoginVC.swift in Sources */,
 				DCE8321D2067346E0014D2FD /* ShadowView.swift in Sources */,
 				DC8F45472066ED5100358E3C /* AppDelegate.swift in Sources */,
-				DC8F45492066ED5100358E3C /* FirstViewController.swift in Sources */,
+				DC8F45492066ED5100358E3C /* FeedVC.swift in Sources */,
 				DC589A102066F384006B8D9D /* DataService.swift in Sources */,
 				DCE8321F2067384F0014D2FD /* AuthService.swift in Sources */,
 			);
