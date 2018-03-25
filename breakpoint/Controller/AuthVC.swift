@@ -9,19 +9,24 @@
 import UIKit
 
 class AuthVC: UIViewController {
-
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
     }
     
-
-
-
+    
+    
+    @IBAction func signingWithEmailButtonPressed(_ sender: Any) {
+        let loginVC = storyboard?.instantiateViewController(withIdentifier: "LoginVC")
+        present(loginVC!, animated: true, completion: nil)
+    }
+    
+    @IBAction func facebookSigningButtonPressed(_ sender: Any) {
+    }
+    
+    @IBAction func googleSigningButtonPressed(_ sender: Any) {
+    }
+    
 }
