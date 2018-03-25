@@ -20,6 +20,7 @@
 		DC8F45502066ED5200358E3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC8F454F2066ED5200358E3C /* Assets.xcassets */; };
 		DC8F45532066ED5200358E3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC8F45512066ED5200358E3C /* LaunchScreen.storyboard */; };
 		DC8F45632066F0B500358E3C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC8F45622066F0B500358E3C /* GoogleService-Info.plist */; };
+		DCA057002067C1E400735431 /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA056FF2067C1E400735431 /* CreatePostVC.swift */; };
 		DCE8321D2067346E0014D2FD /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE8321C2067346E0014D2FD /* ShadowView.swift */; };
 		DCE8321F2067384F0014D2FD /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE8321E2067384F0014D2FD /* AuthService.swift */; };
 /* End PBXBuildFile section */
@@ -41,6 +42,7 @@
 		DC8F45522066ED5200358E3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC8F45542066ED5200358E3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC8F45622066F0B500358E3C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DCA056FF2067C1E400735431 /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
 		DCE8321C2067346E0014D2FD /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		DCE8321E2067384F0014D2FD /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		FF3559DCF166FC90FD15F92F /* Pods-breakpoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breakpoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-breakpoint/Pods-breakpoint.debug.xcconfig"; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				DC8F45482066ED5100358E3C /* FeedVC.swift */,
 				DC8F454A2066ED5100358E3C /* GroupsVC.swift */,
 				DC7186822067902200E2E4A0 /* MeVC.swift */,
+				DCA056FF2067C1E400735431 /* CreatePostVC.swift */,
 				DC8F45462066ED5100358E3C /* AppDelegate.swift */,
 			);
 			path = Controller;
@@ -306,6 +309,7 @@
 				DC589A16206716C5006B8D9D /* LoginVC.swift in Sources */,
 				DCE8321D2067346E0014D2FD /* ShadowView.swift in Sources */,
 				DC8F45472066ED5100358E3C /* AppDelegate.swift in Sources */,
+				DCA057002067C1E400735431 /* CreatePostVC.swift in Sources */,
 				DC8F45492066ED5100358E3C /* FeedVC.swift in Sources */,
 				DC589A102066F384006B8D9D /* DataService.swift in Sources */,
 				DCE8321F2067384F0014D2FD /* AuthService.swift in Sources */,
