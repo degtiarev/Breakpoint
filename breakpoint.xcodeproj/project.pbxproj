@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6AA147A22846C8EA38D1E06A /* Pods_breakpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA1F44D59FF457A45361D613 /* Pods_breakpoint.framework */; };
+		DC4B4DC820689FEE00C089FC /* CreateGroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4B4DC720689FEE00C089FC /* CreateGroupsVC.swift */; };
 		DC589A102066F384006B8D9D /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC589A0F2066F384006B8D9D /* DataService.swift */; };
 		DC589A1420671667006B8D9D /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC589A1320671667006B8D9D /* AuthVC.swift */; };
 		DC589A16206716C5006B8D9D /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC589A15206716C5006B8D9D /* LoginVC.swift */; };
@@ -31,6 +32,7 @@
 /* Begin PBXFileReference section */
 		5B78BB5D7C6FD5FBAB6305F6 /* Pods-breakpoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breakpoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-breakpoint/Pods-breakpoint.release.xcconfig"; sourceTree = "<group>"; };
 		DA1F44D59FF457A45361D613 /* Pods_breakpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_breakpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC4B4DC720689FEE00C089FC /* CreateGroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupsVC.swift; sourceTree = "<group>"; };
 		DC589A0F2066F384006B8D9D /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		DC589A1320671667006B8D9D /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
 		DC589A15206716C5006B8D9D /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				DC8F454A2066ED5100358E3C /* GroupsVC.swift */,
 				DC7186822067902200E2E4A0 /* MeVC.swift */,
 				DCA056FF2067C1E400735431 /* CreatePostVC.swift */,
+				DC4B4DC720689FEE00C089FC /* CreateGroupsVC.swift */,
 				DC8F45462066ED5100358E3C /* AppDelegate.swift */,
 			);
 			path = Controller;
@@ -318,6 +321,7 @@
 				DC8F454B2066ED5100358E3C /* GroupsVC.swift in Sources */,
 				DC589A16206716C5006B8D9D /* LoginVC.swift in Sources */,
 				DCE8321D2067346E0014D2FD /* ShadowView.swift in Sources */,
+				DC4B4DC820689FEE00C089FC /* CreateGroupsVC.swift in Sources */,
 				DCA057062068753100735431 /* FeedCell.swift in Sources */,
 				DC8F45472066ED5100358E3C /* AppDelegate.swift in Sources */,
 				DCA057002067C1E400735431 /* CreatePostVC.swift in Sources */,
