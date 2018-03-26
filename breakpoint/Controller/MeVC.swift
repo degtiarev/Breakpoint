@@ -19,6 +19,7 @@ class MeVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.emailLabel.text = Auth.auth().currentUser?.email
     }
     
     @IBAction func signOutButtonPressed(_ sender: Any) {
