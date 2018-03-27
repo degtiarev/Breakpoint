@@ -16,7 +16,7 @@
     
     
     func configureCell(tittle: String, description: String, memberCount: Int) {
-        self.groupDescriptionLabel.text = tittle
+        self.tittleLabel.text = tittle
         self.groupDescriptionLabel.text = description
         self.memberCountLabel.text = "\(memberCount) members."
     }
