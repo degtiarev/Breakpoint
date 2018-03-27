@@ -19,6 +19,7 @@ class CreateGroupsVC: UIViewController {
     
     
     var emailArray = [String]()
+    var selectedEmailArray = [String]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,6 +29,13 @@ class CreateGroupsVC: UIViewController {
         // emailSearchTextField.delegate = self
         emailSearchTextField.addTarget(self, action: #selector(textFieldDidChange), for: .editingChanged)
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        doneButton.isHidden = true
+    }
+    
     
     @IBAction func doneButtonPressed(_ sender: UIButton) {
     }
@@ -50,6 +58,9 @@ class CreateGroupsVC: UIViewController {
     
 }
 
+
+
+
 extension CreateGroupsVC: UITableViewDelegate, UITableViewDataSource {
     
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -63,10 +74,39 @@ extension CreateGroupsVC: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "userCell") as? UserCell else {return UITableViewCell()}
         let profileImage = UIImage(named: "defaultProfileImage")
-        cell.configureCell(profileImage: profileImage!, email: emailArray[indexPath.row], isSelected: true)
+        
+        if selectedEmailArray.contains(emailArray[indexPath.row]) {
+            cell.configureCell(profileImage: profileImage!, email: emailArray[indexPath.row], isSelected: true)
+        } else {
+            cell.configureCell(profileImage: profileImage!, email: emailArray[indexPath.row], isSelected: false)
+        }
+        
         
         return cell
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        guard let cell = tableView.cellForRow(at: indexPath) as? UserCell else { return }
+        
+        if !selectedEmailArray.contains(cell.emailLabel.text!) {
+            selectedEmailArray.append(cell.emailLabel.text!)
+            
+            groupMemberLabel.text = selectedEmailArray.joined(separator: " ,")
+            doneButton.isHidden = false
+            
+        } else {
+            // return all with the exceptin of selected cell
+            selectedEmailArray = selectedEmailArray.filter({ $0 != cell.emailLabel.text })
+            
+            if selectedEmailArray.count >= 1 {
+                groupMemberLabel.text = selectedEmailArray.joined(separator: ", ")
+            } else {
+                groupMemberLabel.text = "ADD PEOPLE TO YOUR GROUP"
+                doneButton.isHidden = true
+            }
+            
+        }
+    } // func tableView(_ tab$leView: UITableView, didSelectRowAt indexPath: IndexPath) {
     
 }
 
