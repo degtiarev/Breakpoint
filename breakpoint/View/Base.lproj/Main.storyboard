@@ -525,9 +525,9 @@
                             <constraint firstItem="wFf-ga-gCV" firstAttribute="trailing" secondItem="xV4-XW-zoc" secondAttribute="trailing" id="0p8-hg-YXm"/>
                             <constraint firstAttribute="bottom" secondItem="4yd-I2-3Ws" secondAttribute="bottom" id="4HG-Wh-unE"/>
                             <constraint firstItem="9bZ-33-vGn" firstAttribute="top" secondItem="wFf-ga-gCV" secondAttribute="bottom" constant="8" id="GqE-Kq-gmV"/>
+                            <constraint firstItem="4yd-I2-3Ws" firstAttribute="top" secondItem="cHU-a9-gOf" secondAttribute="bottom" id="JEn-6F-xMJ"/>
                             <constraint firstItem="cHU-a9-gOf" firstAttribute="leading" secondItem="xV4-XW-zoc" secondAttribute="leading" id="L4H-kB-fTC"/>
                             <constraint firstItem="4yd-I2-3Ws" firstAttribute="leading" secondItem="xV4-XW-zoc" secondAttribute="leading" id="LHS-o0-qvk"/>
-                            <constraint firstItem="4yd-I2-3Ws" firstAttribute="top" secondItem="cHU-a9-gOf" secondAttribute="bottom" id="Nd1-og-NM8"/>
                             <constraint firstItem="xV4-XW-zoc" firstAttribute="trailing" secondItem="4yd-I2-3Ws" secondAttribute="trailing" id="TZR-F3-NDz"/>
                             <constraint firstItem="9bZ-33-vGn" firstAttribute="leading" secondItem="xV4-XW-zoc" secondAttribute="leading" constant="8" id="dra-6b-o1Z"/>
                             <constraint firstItem="wFf-ga-gCV" firstAttribute="top" secondItem="dg3-LD-mGl" secondAttribute="top" id="ffa-p3-nNr"/>
