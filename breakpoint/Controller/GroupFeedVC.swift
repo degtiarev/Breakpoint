@@ -33,8 +33,8 @@ class GroupFeedVC: UIViewController {
         super.viewWillAppear(animated)
         
         tittleLabel.text = group?.groupTittle
-        DataService.instance.getEmailForGroup(group: group!) { (emailsArray) in
-            self.membersLabel.text = emailsArray.joined(separator: ", ")
+        DataService.instance.getEmailForGroup(group: group!) { (returnedEmails) in
+            self.membersLabel.text = returnedEmails.joined(separator: ", ")
         }
         
         DataService.instance.REF_GROUPS.observe(.value) { (snapshot) in
@@ -71,7 +71,7 @@ class GroupFeedVC: UIViewController {
     
     
     @IBAction func backButtonPressed(_ sender: UIButton) {
-        self.dismiss(animated: true, completion: nil)
+        dismissDetail()
     }
     
 }
