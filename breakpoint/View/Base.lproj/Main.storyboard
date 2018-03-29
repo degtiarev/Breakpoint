@@ -576,16 +576,6 @@
                                             <action selector="signOutButtonPressed:" destination="XAF-5r-R0v" eventType="touchUpInside" id="4j7-Xi-qPk"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="_me" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dnh-yd-UdE">
-                                        <rect key="frame" x="145" y="35" width="31" height="20"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="100" id="IS3-w0-U3N"/>
-                                            <constraint firstAttribute="height" constant="20" id="a9S-mw-lkI"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="17"/>
-                                        <color key="textColor" red="0.56078431370000004" green="0.7843137255" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3qm-Qe-8R7">
                                         <rect key="frame" x="20" y="30" width="30" height="30"/>
                                         <constraints>
@@ -598,19 +588,29 @@
                                             <action selector="signOutButtonPressed:" destination="XAF-5r-R0v" eventType="touchUpInside" id="lnO-63-8Hz"/>
                                         </connections>
                                     </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="_new_group" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dnh-yd-UdE">
+                                        <rect key="frame" x="101" y="35" width="119" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="5zw-Vb-R4W"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="119" id="E4b-0K-TVz"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="17"/>
+                                        <color key="textColor" red="0.56078431370000004" green="0.7843137255" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.1612629592" green="0.15753397350000001" blue="0.2025884986" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstItem="dnh-yd-UdE" firstAttribute="centerX" secondItem="rYf-nB-1e9" secondAttribute="centerX" id="5K0-9X-ZWZ"/>
+                                    <constraint firstItem="dnh-yd-UdE" firstAttribute="centerY" secondItem="3qm-Qe-8R7" secondAttribute="centerY" id="H07-Ma-Lwd"/>
                                     <constraint firstItem="3qm-Qe-8R7" firstAttribute="leading" secondItem="rYf-nB-1e9" secondAttribute="leading" constant="20" id="KLo-6p-DZP"/>
                                     <constraint firstAttribute="height" constant="70" id="SjS-wk-EaA"/>
-                                    <constraint firstItem="nTN-gf-2Bo" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="dnh-yd-UdE" secondAttribute="trailing" constant="64" id="ZJ2-pp-A9C"/>
+                                    <constraint firstItem="nTN-gf-2Bo" firstAttribute="leading" relation="lessThanOrEqual" secondItem="dnh-yd-UdE" secondAttribute="trailing" constant="20" id="cwU-8O-BBV"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="70" id="fpg-aj-1al"/>
                                     <constraint firstItem="nTN-gf-2Bo" firstAttribute="top" secondItem="rYf-nB-1e9" secondAttribute="top" constant="30" id="gGk-LK-7qz"/>
                                     <constraint firstAttribute="trailing" secondItem="nTN-gf-2Bo" secondAttribute="trailing" constant="20" id="kaL-yf-czP"/>
-                                    <constraint firstItem="dnh-yd-UdE" firstAttribute="centerY" secondItem="3qm-Qe-8R7" secondAttribute="centerY" id="m1k-MO-gbJ"/>
-                                    <constraint firstItem="dnh-yd-UdE" firstAttribute="centerX" secondItem="rYf-nB-1e9" secondAttribute="centerX" id="mhQ-HQ-8TB"/>
-                                    <constraint firstItem="nTN-gf-2Bo" firstAttribute="centerY" secondItem="dnh-yd-UdE" secondAttribute="centerY" id="nGU-Zh-zSw"/>
                                     <constraint firstItem="3qm-Qe-8R7" firstAttribute="top" secondItem="rYf-nB-1e9" secondAttribute="top" constant="30" id="ohV-BA-lPf"/>
+                                    <constraint firstItem="nTN-gf-2Bo" firstAttribute="centerY" secondItem="3qm-Qe-8R7" secondAttribute="centerY" id="rL1-Pp-E8j"/>
                                 </constraints>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="fun-0Y-sod">
